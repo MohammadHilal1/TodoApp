@@ -1,0 +1,13 @@
+body{
+    padding: 20px 60px;
+}
+*{
+    box-sizing: border-box;
+}
+.root-container{
+    width: 80vw;
+    height: 80vh;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(77, 77, 212));
+    padding: 5vh 10vw;
+    margin:auto;
+}

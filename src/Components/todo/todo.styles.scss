@@ -1,0 +1,30 @@
+.todo{
+    display:flex;
+    flex-direction: row;
+    padding: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+    .todo-item{
+        
+        width: 30%;
+        height: 100%;
+        font-size: 1.2em;
+    }
+    .complete-button{
+        width: 4%;
+        height: 100%;
+        margin-bottom: 0;    
+        border-radius: 5px;
+        background-color: rgb(48, 196, 97);
+        border: none;
+    }
+    .delete-button{
+        width: 4%;
+        height: 100%;
+        margin-bottom: 0;
+        margin-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(248, 72, 2);
+        border: none;
+    }
+}
